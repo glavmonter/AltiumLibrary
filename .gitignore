@@ -1,0 +1,14 @@
+__Previews/
+Compiled/
+Connector/
+History/
+Ibis/
+Original/
+PDF/
+STEP/
+Фрагменты антенн/
+*.dxf
+*.dwg
+*.frw
+*.bak
+*.IntLib
