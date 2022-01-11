@@ -12,3 +12,6 @@ STEP/
 *.frw
 *.bak
 *.IntLib
+*.csv
+*.csv.md
+*.rep
