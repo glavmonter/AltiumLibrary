@@ -129,6 +129,12 @@
 |     70      | Разъем Холл                            | BM04B-SRSS-TB(LF)(SN)    | JST                 | BM04B-SRSS-TB(LF)(SN)                               | CONN HEADER SMD 4POS 1MM                                                                                                                    |
 |     71      | Разъем оптодатчика                     | BM04B-SRSS-TB(LF)(SN)    | JST                 | BM04B-SRSS-TB(LF)(SN)                               | CONN HEADER SMD 4POS 1MM                                                                                                                    |
 |     72      | Разъем оптодатчика Горизонтальный      | BM04B-SRSS-TB(LF)(SN)    | JST                 | SM04B-SRSS-TB(LF)(SN)                               | CONN HEADER SMD 4POS 1MM                                                                                                                    |
+|     73      | Jumper_2x1                             |                          |                     | PLD 2X1                                             | Jumper 2x1 pins, PLD2x1                                                                                                                     |
+|     74      | Jumper_2x2                             |                          |                     | PLD 2X2                                             | Jumper 2x2 pins, PLD2x2                                                                                                                     |
+|     75      | Jumper_2x3                             |                          |                     | PLD 2X3                                             | Jumper 2x3 pins, PLD2x3                                                                                                                     |
+|     76      | TJ6-8P8C                               |                          |                     | TJ6-8P8C                                            | Ethernet connector TJ6-8P8C                                                                                                                 |
+|     77      | 5EHDR-02P                              |                          |                     | 5EHDR-02P                                           | 5EHDR-02P                                                                                                                                   |
+|     78      | PLS-8                                  |                          |                     | PLD 8X1                                             | 8 прямых штырьков 2,54 мм                                                                                                                   |
 
 
 ## 5. RPSLib_Diodes
@@ -294,6 +300,7 @@
 |     14      | PCA9703PW,118   | PCA9703PW,118    | NXP Semiconductors | TSOP65P640X110-24N  | IC SHIFT REG SPI GPI 24TSSOP                                                     |
 |     15      | SN74AHC1G32DBVR | SN74AHC1G32DBVR  | Texas Instruments  | SOT95P280X110-5N    | TEXAS INSTRUMENTS - SN74AHC1G32DBVR - 74AHC SINGLE GATE, SMD, 74AHC1G32          |
 |     16      | SN74LVC1G18DBVR | SN74LVC1G18DBVR  | Texas Instruments  | SOT95P280X110-6N    | IC 1OF2 NON-INV DEMUX SOT23-6                                                    |
+|     17      | NPIC6C596APWJ   | NPIC6C596APWJ    | Nexperia           | TSOP65P640X110-16N  | NPIC6C596A Series 5.5 V Open-Drain Power Logic 8-Bit Shift Register - TSSOP-16   |
 
 
 ## 15. RPSLib_Memory
@@ -315,16 +322,17 @@
 
 ## 16. RPSLib_Microcontrollers
 
-| Позиционное | LibRef          | Наименование     | Производитель        | Футпринт                   | Описание                                                                                        |
-|:-----------:|-----------------|------------------|----------------------|----------------------------|-------------------------------------------------------------------------------------------------|
-|      1      | GD32F103VBT6    | GD32F103VBT6     | GigaDevice           | TSQFP50P1600X1600X160-100N | MCU 32-bit GD32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                    |
-|      2      | STM32F103VBT6   | STM32F103VBT6    | STMicroelectronics   |                            | MCU 32-bit STM32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                   |
-|      3      | STM32F405RGT6TR | STM32F405RGT6TR  | STMicroelectronics   | TSQFP50P1200X1200X160-64N  | STM32F Series 1 MB Flash 192 KB RAM 168 MHz 32-Bit Microcontroller - LQFP-64                    |
-|      4      | STM32F411RCT    | STM32F411RCT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N  | 32 Bit Microcontroller, Batch Acquisition Mode, ARM Cortex-M4, 100 MHz, 256 KB, 128 KB, 64 Pins |
-|      5      | STM32L051C6T6TR | STM32L051C6T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N    | MCU 32-Bit STM32L ARM Cortex M0+ RISC 32KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
-|      6      | STM32L051C8T6TR | STM32L051C8T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N    | MCU 32-Bit STM32L ARM Cortex M0+ RISC 64KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
-|      7      | STM32L486RGT6   | STM32L486RGT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N  | IC MCU 32BIT 1MB FLASH 64LQFP                                                                   |
-|      8      | nRF52832-QFAA-R | NRF52832-QFAA-R7 | Nordic Semiconductor | QFN40P600X600X90-48N       | IC RF TxRx + MCU Bluetooth, General ISM > 1GHz Bluetooth v4.1 2.4GHz 48-VFQFN Exposed Pad       |
+| Позиционное | LibRef          | Наименование     | Производитель        | Футпринт                        | Описание                                                                                        |
+|:-----------:|-----------------|------------------|----------------------|---------------------------------|-------------------------------------------------------------------------------------------------|
+|      1      | GD32F103VBT6    | GD32F103VBT6     | GigaDevice           | TSQFP50P1600X1600X160-100N      | MCU 32-bit GD32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                    |
+|      2      | STM32F103VBT6   | STM32F103VBT6    | STMicroelectronics   |                                 | MCU 32-bit STM32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                   |
+|      3      | STM32F405RGT6TR | STM32F405RGT6TR  | STMicroelectronics   | TSQFP50P1200X1200X160-64N       | STM32F Series 1 MB Flash 192 KB RAM 168 MHz 32-Bit Microcontroller - LQFP-64                    |
+|      4      | STM32F411RCT    | STM32F411RCT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N       | 32 Bit Microcontroller, Batch Acquisition Mode, ARM Cortex-M4, 100 MHz, 256 KB, 128 KB, 64 Pins |
+|      5      | STM32L051C6T6TR | STM32L051C6T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N         | MCU 32-Bit STM32L ARM Cortex M0+ RISC 32KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
+|      6      | STM32L051C8T6TR | STM32L051C8T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N         | MCU 32-Bit STM32L ARM Cortex M0+ RISC 64KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
+|      7      | STM32L486RGT6   | STM32L486RGT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N       | IC MCU 32BIT 1MB FLASH 64LQFP                                                                   |
+|      8      | nRF52832-QFAA-R | NRF52832-QFAA-R7 | Nordic Semiconductor | QFN40P600X600X90-48N            | IC RF TxRx + MCU Bluetooth, General ISM > 1GHz Bluetooth v4.1 2.4GHz 48-VFQFN Exposed Pad       |
+|      9      | STM32G031C8U6   | STM32G031C8U6    | STMicroelectronics   | QFN50P700X700X60_HS-49N-STM32G  | MCU 32-Bit ARM Cortex-M0+ RISC 64KB Flash 1.7V to 3.6V 48-Pin UFQFPN Tray                       |
 
 
 ## 17. RPSLib_MotorController
@@ -351,7 +359,7 @@
 | Позиционное | LibRef      | Наименование | Производитель                | Футпринт           | Описание                                                                                  |
 |:-----------:|-------------|--------------|------------------------------|--------------------|-------------------------------------------------------------------------------------------|
 |      1      | EE-SX1330   | EE-SX1330    | Omron                        | E_SX1330           | Photointerrupter Transmissive Phototransistor 4-Pin SMD T/R                               |
-|      2      | MOCD213M    | MOCD213M     | ON Semiconductor / Fairchild | SOIC127P590X350-8N | 8SO 2-CH TR                                                                               |
+|      2      | MOCD213M    | MOCD213M     | ON Semiconductor / Fairchild | SOIC127P590X350-8N | OPTOISO 2.5KV 2CH TRANS 8SOIC                                                             |
 |      3      | VEMT2020X01 | VEMT2020X01  | Vishay                       | VEMT2020X01        | VISHAY SEMICONDUCTOR VEMT2020X01 TRANSISTOR, PHOTO, NPN, 860NM, SMD                       |
 |      4      | VSMB2020X01 | VSMB2020X01  | Vishay                       | VSMB2020X01        | VISHAY VSMB2020X01 Infrared Emitter, High Speed, 100 mA, 15 ns, 15 ns, 12 , 1.35 V, -40 C |
 
@@ -407,6 +415,7 @@
 |      1      | CDSOT23-SM712    | CDSOT23-SM712    | Bourns        | SOT95P232X100-3N  | BOURNS - CDSOT23-SM712 - Transient Voltage Suppressor, TVS, CDSOT23 Series, Unidirectional, 12 V, SOT-23, 3, 13.3 V |
 |      2      | SG75             | SG75             | Littelfuse    | GDT SG Littlefuse | GAS DISCHARGE TUBE, 75V, SMD                                                                                        |
 |      3      | TBU-CA065-200-WH | TBU-CA065-200-WH | Bourns        | TBU-CA            | BOURNS - TBU-CA065-200-WH - Surge Protector, TBU-CA Series, High Speed Surge Protector IC, 650 V                    |
+|      4      | SMF26CA          | SMF26CA          | Littelfuse    | SODFL365X110-2N   | TVS DIODE 26VWM 42.1VC SOD123F                                                                                      |
 
 
 ## 23. RPSLib_Resistors
@@ -443,17 +452,19 @@
 
 ## 25. RPSLib_Transistors
 
-| Позиционное | LibRef       | Наименование | Производитель      | Футпринт                  | Описание                                                                                                         |
-|:-----------:|--------------|--------------|--------------------|---------------------------|------------------------------------------------------------------------------------------------------------------|
-|      1      | 2N7002       | 2N7002,215   | Nexperia USA       | SOT95P232X100-3N          | 2N7002 Series N-Channel 60 V 5 Ohm 0.83 W TrenchMOS FET - SOT-23-3                                               |
-|      2      | BC807-25LT1G | BC807-25LT1G | ON Semiconductor   | SOT95P232X100-3N          | ON SEMICONDUCTOR - BC807-25LT1G - Bipolar (BJT) Single Transistor, PNP, -45 V, 100 MHz, 225 mW, -500 mA, 160 hFE |
-|      3      | BC817-16LT3G | BC817-16LT3G | ON Semiconductor   | SOT95P232X100-3N          | TRANS NPN 45V 0.5A SOT-23                                                                                        |
-|      4      | BC857BS,115  | BC857BS,115  | NEXPERIA           | SOT65P210X110-6N          | NEXPERIA - BC857BS,115 - TRANSISTOR, DUAL, PNP, SC-88                                                            |
-|      5      | BCP54-16,115 | BCP54-16,115 | Nexperia           | SOT230P700X180-4N PZT3904 | NEXPERIA - BCP54-16,115 - TRANSISTOR, NPN, SOT-223                                                               |
-|      6      | BSS84LT1G    | BSS84LT1G    | ON Semiconductor   | SOT95P232X100-3N          | On a Reel of 3000, P-Channel MOSFET, 130 mA, 50 V, 3-Pin SOT-23 ON Semiconductor BSS84LT1G                       |
-|      7      | DMN63D8LDW-7 | DMN63D8LDW-7 | Diodes             | SOT65P210X100-6N          | MOSFET 2N-CH 30V 0.22A SOT363                                                                                    |
-|      8      | MMBT4401-7-F | MMBT4401-7-F | Diodes             | SOT95P232X100-3N          | TRANS NPN 40V 0.6A SMD SOT23-3                                                                                   |
-|      9      | NTS4001NT1G  | NTS4001NT1G  | ON Semiconductor   | SOT65P220X100-3N          | MOSFET N-CH 30V 270MA SOT-323                                                                                    |
-|     10      | PZT3904T1G   | PZT3904T1G   | ON Semiconductor   | SOT230P700X180-4N PZT3904 | Trans GP BJT NPN 40V 0.2A Automotive 4-Pin(3+Tab) SOT-223 T/R                                                    |
-|     11      | STL90N6F7    | STL90N6F7    | STMicroelectronics | PowerFlat6x6_MOSFET       | MOSFET N-CH 60V 90A F7 8PWRFLAT                                                                                  |
-|     12      | ZXMN6A08E6TA | ZXMN6A08E6TA | Diodes Zetex       | SOT95P280X110-6N_ZXMN6A08 | MOSFET N-CH 60V 2.8A SOT23-6                                                                                     |
+| Позиционное | LibRef        | Наименование  | Производитель      | Футпринт                  | Описание                                                                                                         |
+|:-----------:|---------------|---------------|--------------------|---------------------------|------------------------------------------------------------------------------------------------------------------|
+|      1      | 2N7002        | 2N7002,215    | Nexperia USA       | SOT95P232X100-3N          | 2N7002 Series N-Channel 60 V 5 Ohm 0.83 W TrenchMOS FET - SOT-23-3                                               |
+|      2      | BC807-25LT1G  | BC807-25LT1G  | ON Semiconductor   | SOT95P232X100-3N          | ON SEMICONDUCTOR - BC807-25LT1G - Bipolar (BJT) Single Transistor, PNP, -45 V, 100 MHz, 225 mW, -500 mA, 160 hFE |
+|      3      | BC817-16LT3G  | BC817-16LT3G  | ON Semiconductor   | SOT95P232X100-3N          | TRANS NPN 45V 0.5A SOT-23                                                                                        |
+|      4      | BC857BS,115   | BC857BS,115   | NEXPERIA           | SOT65P210X110-6N          | NEXPERIA - BC857BS,115 - TRANSISTOR, DUAL, PNP, SC-88                                                            |
+|      5      | BCP54-16,115  | BCP54-16,115  | Nexperia           | SOT230P700X180-4N PZT3904 | NEXPERIA - BCP54-16,115 - TRANSISTOR, NPN, SOT-223                                                               |
+|      6      | BSS84LT1G     | BSS84LT1G     | ON Semiconductor   | SOT95P232X100-3N          | On a Reel of 3000, P-Channel MOSFET, 130 mA, 50 V, 3-Pin SOT-23 ON Semiconductor BSS84LT1G                       |
+|      7      | DMN63D8LDW-7  | DMN63D8LDW-7  | Diodes             | SOT65P210X100-6N          | MOSFET 2N-CH 30V 0.22A SOT363                                                                                    |
+|      8      | MMBT4401-7-F  | MMBT4401-7-F  | Diodes             | SOT95P232X100-3N          | TRANS NPN 40V 0.6A SMD SOT23-3                                                                                   |
+|      9      | NTS4001NT1G   | NTS4001NT1G   | ON Semiconductor   | SOT65P220X100-3N          | MOSFET N-CH 30V 270MA SOT-323                                                                                    |
+|     10      | PZT3904T1G    | PZT3904T1G    | ON Semiconductor   | SOT230P700X180-4N PZT3904 | Trans GP BJT NPN 40V 0.2A Automotive 4-Pin(3+Tab) SOT-223 T/R                                                    |
+|     11      | STL90N6F7     | STL90N6F7     | STMicroelectronics | PowerFlat6x6_MOSFET       | MOSFET N-CH 60V 90A F7 8PWRFLAT                                                                                  |
+|     12      | ZXMN6A08E6TA  | ZXMN6A08E6TA  | Diodes Zetex       | SOT95P280X110-6N_ZXMN6A08 | MOSFET N-CH 60V 2.8A SOT23-6                                                                                     |
+|     13      | TLP241A(TP1,F | TLP241A(TP1,F | Toshiba            | TLP241A(LF1)              | Relay SSR 25MA 1.4V Dc-in 2A 40V Dc-out 4-PIN DIP T/r                                                            |
+|     14      | BC846BDW1T1G  | BC846BDW1T1G  | ON Semiconductor   | SOT65P210X110-6N          | ON Semi BC846BDW1T1G Dual NPN Bipolar Transistor; 0.1 A; 65 V; 6-Pin SC-88                                       |
