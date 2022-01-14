@@ -135,6 +135,7 @@
 |     76      | TJ6-8P8C                               |                          |                     | TJ6-8P8C                                            | Ethernet connector TJ6-8P8C                                                                                                                 |
 |     77      | 5EHDR-02P                              |                          |                     | 5EHDR-02P                                           | 5EHDR-02P                                                                                                                                   |
 |     78      | PLS-8                                  |                          |                     | PLD 8X1                                             | 8 прямых штырьков 2,54 мм                                                                                                                   |
+|     79      | PLS-4                                  |                          |                     | PLD 4X1                                             | 4 прямых штырька 2,54 мм                                                                                                                    |
 
 
 ## 5. RPSLib_Diodes
