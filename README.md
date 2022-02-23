@@ -192,6 +192,8 @@
 |      3      | BLM18AG601SN1D | BLM18AG601SN1D | Murata        | INDC1608X08N_BLM18AG       | FERRITE CHIP 600 OHM 500MA 0603                                             |
 |      4      | BLM21BD272SN1L | BLM21BD272SN1L | Murata        | INDC2012X14N_BLM21BD272SN1 | Murata Ferrite Bead (Chip Bead), 2 x 1.25 x 1.25mm (0805)                   |
 |      5      | BLM31PG601SN1L | BLM31PG601SN1L | Murata        | INDC3216X11N_BLM31PG       | MURATA - BLM31PG601SN1L - FERRITE BEAD, 600R, 1.5A, 1206                    |
+|      6      | BLM15PX471SN1D | BLM15PX471SN1D | Murata        | INDC1005X05N_BLM15Px       | FERRITE BEAD 470 OHM 0402 1LN                                               |
+|      7      | BLM15PX221SN1D | BLM15PX221SN1D | Murata        | INDC1005X05N_BLM15Px       | FERRITE BEAD 220 OHM 0402 1LN                                               |
 
 
 ## 8. RPSLib_FPGA
@@ -260,6 +262,7 @@
 |      7      | KSZ9031RNXCA        | KSZ9031RNXCA        | Microchip          |                               | IC TXRX ETHERNET 48QFN                                                                     |
 |      8      | MFRC63003HNE        | MFRC63003HNE        | NXP Semiconductors | QFN50P500X500X100_HS-33N_MFRC | IC RFID TRANSP 13.56MHZ 32HVQFN                                                            |
 |      9      | SN65HVD82DR         | SN65HVD82DR         | Texas Instruments  | SOIC127P600X175-8N            | Texas Instruments SN65HVD82DR Linear IC                                                    |
+|     10      | PN5321A3HN/C106;55  | PN5321A3HN/C106;55  | NXP Semiconductors | QFN50P600X600X100_HS-41N      | PN532 Series 5.5 V 13.56 MHz Near Field Communication (NFC) Controller -HVQFN-40           |
 
 
 ## 13. RPSLib_LEDs
@@ -279,6 +282,7 @@
 |     11      | LTST-S270KGKT    | LTST-S270KGKT    | Vishay Lite-On | LTST-S270KGKT                 | LED Uni-Color Green 574nm 2-Pin Chip LED T/R                                         |
 |     12      | LTST-S270KRKT    | LTST-S270KRKT    | Vishay Lite-On | LTST-S270KRKT                 | LED Uni-Color Red 639nm 2-Pin Chip LED T/R                                           |
 |     13      | SMLVN6RGB1W1     | SMLVN6RGB1W1     | Rohm           | LED3528M                      | LED Tri-Color Blue/Green/Red Chip LED 6-Pin 1411 T/R                                 |
+|     14      | IN-S85ATG        | IN-S85ATG        | Inolux         | DIOC2012X11N-                 | Led Green Clear 0805 SMD Super bright                                                |
 
 
 ## 14. RPSLib_Logic
@@ -323,17 +327,18 @@
 
 ## 16. RPSLib_Microcontrollers
 
-| Позиционное | LibRef          | Наименование     | Производитель        | Футпринт                        | Описание                                                                                        |
-|:-----------:|-----------------|------------------|----------------------|---------------------------------|-------------------------------------------------------------------------------------------------|
-|      1      | GD32F103VBT6    | GD32F103VBT6     | GigaDevice           | TSQFP50P1600X1600X160-100N      | MCU 32-bit GD32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                    |
-|      2      | STM32F103VBT6   | STM32F103VBT6    | STMicroelectronics   |                                 | MCU 32-bit STM32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                   |
-|      3      | STM32F405RGT6TR | STM32F405RGT6TR  | STMicroelectronics   | TSQFP50P1200X1200X160-64N       | STM32F Series 1 MB Flash 192 KB RAM 168 MHz 32-Bit Microcontroller - LQFP-64                    |
-|      4      | STM32F411RCT    | STM32F411RCT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N       | 32 Bit Microcontroller, Batch Acquisition Mode, ARM Cortex-M4, 100 MHz, 256 KB, 128 KB, 64 Pins |
-|      5      | STM32L051C6T6TR | STM32L051C6T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N         | MCU 32-Bit STM32L ARM Cortex M0+ RISC 32KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
-|      6      | STM32L051C8T6TR | STM32L051C8T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N         | MCU 32-Bit STM32L ARM Cortex M0+ RISC 64KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
-|      7      | STM32L486RGT6   | STM32L486RGT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N       | IC MCU 32BIT 1MB FLASH 64LQFP                                                                   |
-|      8      | nRF52832-QFAA-R | NRF52832-QFAA-R7 | Nordic Semiconductor | QFN40P600X600X90-48N            | IC RF TxRx + MCU Bluetooth, General ISM > 1GHz Bluetooth v4.1 2.4GHz 48-VFQFN Exposed Pad       |
-|      9      | STM32G031C8U6   | STM32G031C8U6    | STMicroelectronics   | QFN50P700X700X60_HS-49N-STM32G  | MCU 32-Bit ARM Cortex-M0+ RISC 64KB Flash 1.7V to 3.6V 48-Pin UFQFPN Tray                       |
+| Позиционное | LibRef          | Наименование     | Производитель        | Футпринт                       | Описание                                                                                        |
+|:-----------:|-----------------|------------------|----------------------|--------------------------------|-------------------------------------------------------------------------------------------------|
+|      1      | GD32F103VBT6    | GD32F103VBT6     | GigaDevice           | TSQFP50P1600X1600X160-100N     | MCU 32-bit GD32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                    |
+|      2      | STM32F103VBT6   | STM32F103VBT6    | STMicroelectronics   |                                | MCU 32-bit STM32F1 ARM Cortex M3 RISC 128KB Flash 2.5V/3.3V 100-Pin LQFP Tray                   |
+|      3      | STM32F405RGT6TR | STM32F405RGT6TR  | STMicroelectronics   | TSQFP50P1200X1200X160-64N      | STM32F Series 1 MB Flash 192 KB RAM 168 MHz 32-Bit Microcontroller - LQFP-64                    |
+|      4      | STM32F411RCT    | STM32F411RCT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N      | 32 Bit Microcontroller, Batch Acquisition Mode, ARM Cortex-M4, 100 MHz, 256 KB, 128 KB, 64 Pins |
+|      5      | STM32L051C6T6TR | STM32L051C6T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N        | MCU 32-Bit STM32L ARM Cortex M0+ RISC 32KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
+|      6      | STM32L051C8T6TR | STM32L051C8T6TR  | STMicroelectronics   | TSQFP50P900X900X160-48N        | MCU 32-Bit STM32L ARM Cortex M0+ RISC 64KB Flash 2.5V/3.3V 48-Pin LQFP T/R                      |
+|      7      | STM32L486RGT6   | STM32L486RGT6    | STMicroelectronics   | TSQFP50P1200X1200X160-64N      | IC MCU 32BIT 1MB FLASH 64LQFP                                                                   |
+|      8      | nRF52832-QFAA-R | NRF52832-QFAA-R7 | Nordic Semiconductor | QFN40P600X600X90-48N           | IC RF TxRx + MCU Bluetooth, General ISM > 1GHz Bluetooth v4.1 2.4GHz 48-VFQFN Exposed Pad       |
+|      9      | STM32G031C8U6   | STM32G031C8U6    | STMicroelectronics   | QFN50P700X700X60_HS-49N-STM32G | MCU 32-Bit ARM Cortex-M0+ RISC 64KB Flash 1.7V to 3.6V 48-Pin UFQFPN Tray                       |
+|     10      | GD32E103CBT6    | GD32E103CBT6     | GigaDevice           | TSQFP50P900X900X160-48N        | MCU 32-bit GD32E ARM Cortex M4 RISC 128KB Flash 2.5V/3.3V 48-Pin LQFP Tray                      |
 
 
 ## 17. RPSLib_MotorController
@@ -367,17 +372,18 @@
 
 ## 20. RPSLib_Oscillators
 
-| Позиционное | LibRef                   | Наименование             | Производитель   | Футпринт      | Описание                                                                                |
-|:-----------:|--------------------------|--------------------------|-----------------|---------------|-----------------------------------------------------------------------------------------|
-|      1      | ABM11-142-27.120MHz      | ABM11-142-27.120MHZ-T3   | Abracon         | ABM11         | 27.12MHz ±10ppm Crystal 8pF 40 Ohm -20°C ~ 70°C Surface Mount 4-SMD, No Lead (DFN, LCC) |
-|      2      | ABM8G-12.000MHZ-4Y-T3    | ABM8G-12.000MHZ-4Y-T3    | Abracon         | ABM8G         | 12MHz ±30ppm Crystal 10pF 120 Ohm -10°C ~ 60°C Surface Mount 4-SMD, No Lead (DFN, LCC)  |
-|      3      | ABS06-32.768KHZ-9-1-T    | ABS06-32.768KHZ-9-1-T    | Abracon         | Abracon ABS06 | CRYSTAL 32.7680KHZ 9PF SMD                                                              |
-|      4      | ASE-24.000MHZ-LC-T       | ASE-24.000MHZ-LC-T       | Abracon         | ASE Abracon   | XTAL OSC XO 24.0000MHZ CMOS SMD                                                         |
-|      5      | FA-128 32.0000MF20X-K3   | FA-12832.0000MF20X-K3    | Epson           | BT-XTAL_2016  | Crystals 32MHz 10ppm 10pF -40C +85C                                                     |
-|      6      | FC-135 32.7680KA-A3      | FC-13532.7680KA-A3       | Epson           | XTAL_3215     | 32.768kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead                                 |
-|      7      | FC-135 32.7680KA-AC0     | FC-13532.7680KA-AC0      | Epson           | XTAL_3215     | Crystals 32.768KHz 20ppm 9.0pF -40C -85C                                                |
-|      8      | FOX924B-25.000           | FOX924B-25.000           | Fox Electronics | FOX924        | OSC TCXO 25.000MHZ HCMOS SMD                                                            |
-|      9      | SIT1533AI-H4-DCC-32.768E | SIT1533AI-H4-DCC-32.768E | SiTime          | SIT1533       | MEMS OSC XO 32.7680KHZ LVCMOS                                                           |
+| Позиционное | LibRef                     | Наименование               | Производитель   | Футпринт      | Описание                                                                                |
+|:-----------:|----------------------------|----------------------------|-----------------|---------------|-----------------------------------------------------------------------------------------|
+|      1      | ABM11-142-27.120MHz        | ABM11-142-27.120MHZ-T3     | Abracon         | ABM11         | 27.12MHz ±10ppm Crystal 8pF 40 Ohm -20°C ~ 70°C Surface Mount 4-SMD, No Lead (DFN, LCC) |
+|      2      | ABM8G-12.000MHZ-4Y-T3      | ABM8G-12.000MHZ-4Y-T3      | Abracon         | ABM8G         | 12MHz ±30ppm Crystal 10pF 120 Ohm -10°C ~ 60°C Surface Mount 4-SMD, No Lead (DFN, LCC)  |
+|      3      | ABS06-32.768KHZ-9-1-T      | ABS06-32.768KHZ-9-1-T      | Abracon         | Abracon ABS06 | CRYSTAL 32.7680KHZ 9PF SMD                                                              |
+|      4      | ASE-24.000MHZ-LC-T         | ASE-24.000MHZ-LC-T         | Abracon         | ASE Abracon   | XTAL OSC XO 24.0000MHZ CMOS SMD                                                         |
+|      5      | FA-128 32.0000MF20X-K3     | FA-12832.0000MF20X-K3      | Epson           | BT-XTAL_2016  | Crystals 32MHz 10ppm 10pF -40C +85C                                                     |
+|      6      | FC-135 32.7680KA-A3        | FC-13532.7680KA-A3         | Epson           | XTAL_3215     | 32.768kHz ±20ppm Crystal 12.5pF 70 kOhms 2-SMD, No Lead                                 |
+|      7      | FC-135 32.7680KA-AC0       | FC-13532.7680KA-AC0        | Epson           | XTAL_3215     | Crystals 32.768KHz 20ppm 9.0pF -40C -85C                                                |
+|      8      | FOX924B-25.000             | FOX924B-25.000             | Fox Electronics | FOX924        | OSC TCXO 25.000MHZ HCMOS SMD                                                            |
+|      9      | SIT1533AI-H4-DCC-32.768E   | SIT1533AI-H4-DCC-32.768E   | SiTime          | SIT1533       | MEMS OSC XO 32.7680KHZ LVCMOS                                                           |
+|     10      | ABM11W-27.1200MHZ-8-B1U-T3 | ABM11W-27.1200MHZ-8-B1U-T3 | Abracon         | ABM11W        | Iot Optimized 27.12MHZ 8PF Crystal 4-SMD 2.0x1.6x0.5 mm                                 |
 
 
 ## 21. RPSLib_PMIC
@@ -407,6 +413,7 @@
 |     21      | TPS54202DDCT       | TPS54202DDCT       | Texas Instruments                  | SOT95P280X110-6N      | IC REG BUCK ADJ 2A SYNC SOT23-6                                                                                                                                      |
 |     22      | TPS61161A          | TPS61161ADRVR      | Texas Instruments                  | PSON65P200X80_HS-7N   | IC LED DRIVER WHITE BCKLGT 6SON                                                                                                                                      |
 |     23      | TPS71812-33DRVR    | TPS71812-33DRVR    | Texas Instruments                  | PSON65P200X80_HS-7N   | IC REG LIN 1.2V/3.3V 200MA 6SON                                                                                                                                      |
+|     24      | NSI45020T1G        | NSI45020T1G        | ON Semiconductor                   | NSI45020 SOD-123      | Current Regulator Regulator High/Low-Side 20mA SOD-123                                                                                                               |
 
 
 ## 22. RPSLib_Protection
