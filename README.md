@@ -384,6 +384,7 @@
 |      8      | FOX924B-25.000             | FOX924B-25.000             | Fox Electronics | FOX924        | OSC TCXO 25.000MHZ HCMOS SMD                                                            |
 |      9      | SIT1533AI-H4-DCC-32.768E   | SIT1533AI-H4-DCC-32.768E   | SiTime          | SIT1533       | MEMS OSC XO 32.7680KHZ LVCMOS                                                           |
 |     10      | ABM11W-27.1200MHZ-8-B1U-T3 | ABM11W-27.1200MHZ-8-B1U-T3 | Abracon         | ABM11W        | Iot Optimized 27.12MHZ 8PF Crystal 4-SMD 2.0x1.6x0.5 mm                                 |
+|     11      | ABM11W-16.0000MHZ-8-B1U-T3 | ABM11W-16.0000MHZ-8-B1U-T3 | Abracon         | ABM11W        | CRYSTAL 16.0000MHZ 8PF SMD, 2x1.6mm, RoHS                                               |
 
 
 ## 21. RPSLib_PMIC
@@ -414,6 +415,7 @@
 |     22      | TPS61161A          | TPS61161ADRVR      | Texas Instruments                  | PSON65P200X80_HS-7N   | IC LED DRIVER WHITE BCKLGT 6SON                                                                                                                                      |
 |     23      | TPS71812-33DRVR    | TPS71812-33DRVR    | Texas Instruments                  | PSON65P200X80_HS-7N   | IC REG LIN 1.2V/3.3V 200MA 6SON                                                                                                                                      |
 |     24      | NSI45020T1G        | NSI45020T1G        | ON Semiconductor                   | NSI45020 SOD-123      | Current Regulator Regulator High/Low-Side 20mA SOD-123                                                                                                               |
+|     25      | LMR64010XMF        | LMR64010XMF        | Texas Instruments                  | SOT95P280X145-5N      | SIMPLE SWITCHER® 2.7V to 14V, 1A Step-Up Regulator in SOT-23 Package 5-SOT-23 -40 to 125                                                                             |
 
 
 ## 22. RPSLib_Protection
@@ -452,11 +454,12 @@
 
 ## 24. RPSLib_Sensor
 
-| Позиционное | LibRef   | Наименование     | Производитель               | Футпринт         | Описание                                                                            |
-|:-----------:|----------|------------------|-----------------------------|------------------|-------------------------------------------------------------------------------------|
-|      1      | IQS127D  | IQS127D-00000TSR | Azoteq                      | SOT95P280X100-6N | Capacitive Touch Sensors Default Config Prox & Touch                                |
-|      2      | SL353HT  | SL353HT          | Honeywell Sensing & Control | SOT95P232X100-3N | HONEYWELL S&C SL353HT Hall Effect Sensor, Omnipolar, 330 A, SOT-23, 3, 2.2 V, 5.5 V |
-|      3      | TMP100NA | TMP100NA/250     | Texas Instruments           | SOT95P280X145-6N | TEXAS INSTRUMENTS - TMP100NA/250 - TEMPERATUR SENSOR                                |
+| Позиционное | LibRef     | Наименование     | Производитель               | Футпринт         | Описание                                                                            |
+|:-----------:|------------|------------------|-----------------------------|------------------|-------------------------------------------------------------------------------------|
+|      1      | IQS127D    | IQS127D-00000TSR | Azoteq                      | SOT95P280X100-6N | Capacitive Touch Sensors Default Config Prox & Touch                                |
+|      2      | SL353HT    | SL353HT          | Honeywell Sensing & Control | SOT95P232X100-3N | HONEYWELL S&C SL353HT Hall Effect Sensor, Omnipolar, 330 A, SOT-23, 3, 2.2 V, 5.5 V |
+|      3      | TMP100NA   | TMP100NA/250     | Texas Instruments           | SOT95P280X145-6N | TEXAS INSTRUMENTS - TMP100NA/250 - TEMPERATUR SENSOR                                |
+|      4      | TTP223-BA6 | TTP223-BA6       | TonTek                      | SOT95P280X145-6N | Capacitive Touch Sensors                                                            |
 
 ## 25. RPSLib_Transistors
 
@@ -476,3 +479,4 @@
 |     12      | ZXMN6A08E6TA  | ZXMN6A08E6TA  | Diodes Zetex       | SOT95P280X110-6N_ZXMN6A08 | MOSFET N-CH 60V 2.8A SOT23-6                                                                                     |
 |     13      | TLP241A(TP1,F | TLP241A(TP1,F | Toshiba            | TLP241A(LF1)              | Relay SSR 25MA 1.4V Dc-in 2A 40V Dc-out 4-PIN DIP T/r                                                            |
 |     14      | BC846BDW1T1G  | BC846BDW1T1G  | ON Semiconductor   | SOT65P210X110-6N          | ON Semi BC846BDW1T1G Dual NPN Bipolar Transistor; 0.1 A; 65 V; 6-Pin SC-88                                       |
+|     15      | AO3400A       | AO3400A       | Alpha & Omega      | SOT95P232X100-3N          | MOSFET N-CH 30V 5.7A SOT23-3L                                                                                    |
