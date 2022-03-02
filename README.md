@@ -385,6 +385,10 @@
 |      9      | SIT1533AI-H4-DCC-32.768E   | SIT1533AI-H4-DCC-32.768E   | SiTime          | SIT1533       | MEMS OSC XO 32.7680KHZ LVCMOS                                                           |
 |     10      | ABM11W-27.1200MHZ-8-B1U-T3 | ABM11W-27.1200MHZ-8-B1U-T3 | Abracon         | ABM11W        | Iot Optimized 27.12MHZ 8PF Crystal 4-SMD 2.0x1.6x0.5 mm                                 |
 |     11      | ABM11W-16.0000MHZ-8-B1U-T3 | ABM11W-16.0000MHZ-8-B1U-T3 | Abracon         | ABM11W        | CRYSTAL 16.0000MHZ 8PF SMD, 2x1.6mm, RoHS                                               |
+|     12      | ABM8W-27.1200MHZ-8-B1U-T3  | ABM8W-27.1200MHZ-8-B1U-T3  | Abracon         | ABM8W         | CRYSTAL 27.1200MHZ 8PF SMD, 3.2x2.5mm, RoHS                                             |
+|     13      | ECS-80-12-33-JGN-TR        | ECS-80-12-33-JGN-TR        | ECS Inc         | SCX-32        | Crystal 8MHz ±20ppm (Tol) ±30ppm 12pF, 3.2x2.5mm, RoHS                                  |
+|     14      | ECS-271.2-12-33-AGN-TR     | ECS-271.2-12-33-AGN-TR     | ECS Inc         | SCX-32        | Crystal 27.12MHz ±25ppm (Tol) ±30ppm (Stability) 12pF, 3.2x2.5mm, RoHS                  |
+
 
 
 ## 21. RPSLib_PMIC
