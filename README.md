@@ -458,12 +458,13 @@
 
 ## 24. RPSLib_Sensor
 
-| Позиционное | LibRef     | Наименование     | Производитель               | Футпринт         | Описание                                                                            |
-|:-----------:|------------|------------------|-----------------------------|------------------|-------------------------------------------------------------------------------------|
-|      1      | IQS127D    | IQS127D-00000TSR | Azoteq                      | SOT95P280X100-6N | Capacitive Touch Sensors Default Config Prox & Touch                                |
-|      2      | SL353HT    | SL353HT          | Honeywell Sensing & Control | SOT95P232X100-3N | HONEYWELL S&C SL353HT Hall Effect Sensor, Omnipolar, 330 A, SOT-23, 3, 2.2 V, 5.5 V |
-|      3      | TMP100NA   | TMP100NA/250     | Texas Instruments           | SOT95P280X145-6N | TEXAS INSTRUMENTS - TMP100NA/250 - TEMPERATUR SENSOR                                |
-|      4      | TTP223-BA6 | TTP223-BA6       | TonTek                      | SOT95P280X145-6N | Capacitive Touch Sensors                                                            |
+| Позиционное | LibRef     | Наименование     | Производитель               | Футпринт            | Описание                                                                            |
+|:-----------:|------------|------------------|-----------------------------|---------------------|-------------------------------------------------------------------------------------|
+|      1      | IQS127D    | IQS127D-00000TSR | Azoteq                      | SOT95P280X100-6N    | Capacitive Touch Sensors Default Config Prox & Touch                                |
+|      2      | SL353HT    | SL353HT          | Honeywell Sensing & Control | SOT95P232X100-3N    | HONEYWELL S&C SL353HT Hall Effect Sensor, Omnipolar, 330 A, SOT-23, 3, 2.2 V, 5.5 V |
+|      3      | TMP100NA   | TMP100NA/250     | Texas Instruments           | SOT95P280X145-6N    | TEXAS INSTRUMENTS - TMP100NA/250 - TEMPERATUR SENSOR                                |
+|      4      | TTP223-BA6 | TTP223-BA6       | TonTek                      | SOT95P280X145-6N    | Capacitive Touch Sensors                                                            |
+|      5      | AW9201QNR  | AW9201QNR        | Awinic                      | QFN40P160X160X80-8N | Capacitive Touch Sensors                                                            |
 
 ## 25. RPSLib_Transistors
 
