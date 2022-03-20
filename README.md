@@ -136,13 +136,14 @@
 |     77      | 5EHDR-02P                              |                          |                     | 5EHDR-02P                                           | 5EHDR-02P                                                                                                                                   |
 |     78      | PLS-8                                  |                          |                     | PLD 8X1                                             | 8 прямых штырьков 2,54 мм                                                                                                                   |
 |     79      | PLS-4                                  |                          |                     | PLD 4X1                                             | 4 прямых штырька 2,54 мм                                                                                                                    |
+|     80      | USB-B12-BRW                            | USB-B12-BRW              | XUNPU               | USB-B12-BRW                                         | 1.5A USB 2.0 1 260℃ Straight 4 Female -20℃~+70℃ Type-B Plugin,19.25x12.04x11mm USB Connectors ROHS                                          |
 
 
 ## 5. RPSLib_Diodes
 
 | Позиционное | LibRef           | Наименование     | Производитель                 | Футпринт           | Описание                                                                                                          |
 |:-----------:|------------------|------------------|-------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------|
-|      1      |  1N4148WS        |  1N4148WS        |  ON Semiconductor / Fairchild |  SOD323            |  DIODE GEN PURP 75V 150MA SOD323F                                                                                 |
+|      1      | 1N4148WS         | 1N4148WS         | ON Semiconductor / Fairchild  | SOD323             | DIODE GEN PURP 75V 150MA SOD323F                                                                                  |
 |      2      | B340-13-F        | B340-13-F        | Diodes                        | DIOM6959X25N_SMC   | Diode Schottky 40V 3A 2-Pin SMC T/R                                                                               |
 |      3      | BAS85,115        | BAS85,115        | Nexperia                      | DIOMELF3515N-SOD80 | BAS85 Series 30 V 5 A Surface Mount Schottky Barrier Diode - SOD-80C                                              |
 |      4      | DZ2W06200L       | DZ2W06200L       | Panasonic                     | SODFL350X110-2N    | PANASONIC DZ2W06200L Zener Single Diode, 6.2 V, 1 W, SOD-123F, 5 %, 2 Pins, 85 C                                  |
@@ -155,13 +156,14 @@
 |     11      | SMAJ18A          | SMAJ18A-13-F     | Diodes                        | DIOM4326X24N - SMA | Diode TVS Single Uni-Dir 18V 400W 2-Pin SMA T/R Description Diode TVS Single Uni-Dir 18V 400W 2-Pin SMA T/R       |
 |     12      | STPS1L60ZFY      | STPS1L60ZFY      | STMicroelectronics            | SODFL350X110-2N    | DIODE SCHOTTKY 60V 1A SOD123F                                                                                     |
 |     13      | STPS30H100DJF-TR | STPS30H100DJF-TR | STMicroelectronics            | PowerFlat6x6_diode | Diode Schottky 100V 30A 8-Pin Power Flat T/R                                                                      |
+|     15      | MMSZ4685         | MMSZ4685         | Changjiang Electronics Tech   | SOD123             | Zener Diode 3.6V 350mW ±5% Surface Mount SOD-123                                                                  |
 
 
 ## 6. RPSLib_ElectroMechanical
 
 | Позиционное | LibRef               | Наименование        | Производитель       | Футпринт                                                                                                                                                                             | Описание                                                                                |
 |:-----------:|----------------------|---------------------|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-|      1      | 1PINS                |                     |                     | 1Pin                                                                                                                                                                                 |                                                                                         |
+|      1      | 1PINS                |                     |                     | 1Pin-0.6, 1Pin-0.8                                                                                                                                                                   |                                                                                         |
 |      2      | 1PINS-Motor          |                     |                     | 1Pin - motor                                                                                                                                                                         |                                                                                         |
 |      3      | B3U-3000PM-B         | B3U-3000PM-B        | Omron               | B3U-3000PM-B                                                                                                                                                                         | Switch Tactile N.O. SPST Button Gull Wing 0.05A 12VDC 1.59N SMD Embossed T/R            |
 |      4      | BMI-S-202-C          |                     |                     |                                                                                                                                                                                      | EMI Shield Крышка                                                                       |
@@ -181,6 +183,7 @@
 |     18      | Винт М3              |                     |                     | Винт М3                                                                                                                                                                              |                                                                                         |
 |     19      | Контрольная точка    |                     |                     | ControlPoint_1.0, ControlPoint_1.5, ControlPoint_2.0                                                                                                                                 |                                                                                         |
 |     20      | Реперная точка       |                     |                     | Reper                                                                                                                                                                                |                                                                                         |
+|     21      | PGTH1200             | PGTH1200            | RTLECS              | PGTH1200                                                                                                                                                                             | PogoPin 12mm height                                                                     |
 
 
 ## 7. RPSLib_Filters
@@ -323,6 +326,7 @@
 |      9      | MT41J256M8DA-125:K    | MT41J256M8DA-125:K    | Micron Technology | BGA81C80P9X13_800X1050X120    | DRAM Chip DDR3 SDRAM 2G-Bit 256Mx8 1.5V 78-Pin FBGA                                                               |
 |     10      | S25FL128SAGNFI003     | S25FL128SAGNFI003     | Spansion          | SON127P800X80_HS-9N           | 128-MBIT CMOS 3.0 VOLT 65NM FLASH MEMORY WITH 13                                                                  |
 |     11      | S25FL256SAGNFI001     | S25FL256SAGNFI001     | Cypress           | SON127P800X80_HS-9N           | CYPRESS SEMICONDUCTOR - S25FL256SAGNFI001 - Flash Memory, Serial NOR, 256 Mbit, 32M x 8bit, SPI, WSON, 8 Pins     |
+|     12      | BL24C02F-RRRC         | BL24C02F-RRRC         | Shanghai Belling  | SOT95P280X145-5N              | TSOT23-5L EEPROM 2Kb（256x8） I²C                                                                                   |
 
 
 ## 16. RPSLib_Microcontrollers
