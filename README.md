@@ -250,7 +250,7 @@
 |     13      | SRN4018-220M       | SRN4018-220M       | Bourns        | SRN4018              | FIXED IND 22UH 900MA 348 MOHM                                                                     |
 |     14      | SRN8040-2R2Y       | SRN8040-2R2Y       | Bourns        | SRN8040-4.0          | BOURNS - SRN8040-2R2Y - INDUCTOR, 2.2UH, 6.3A, 30%, SEMISHIELDED                                  |
 |     15      | SRN8040-3R3Y       | SRN8040-3R3Y       | Bourns        | SRN8040-4.0          | FIXED IND 3.3UH 5.6A 21 MOHM SMD                                                                  |
-
+|     16      | LQW2UASR56J00L     | LQW2UASR56J00L     | Murata        | INDC2624X20N-LQW2    | Ind RF Chip Wirewound 560nH 5% 25MHz 45Q-Factor 400mA 1008 Embossed T/R                           |
 
 ## 12. RPSLib_Interface
 
