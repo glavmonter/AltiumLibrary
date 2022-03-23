@@ -141,22 +141,24 @@
 
 ## 5. RPSLib_Diodes
 
-| Позиционное | LibRef           | Наименование     | Производитель                 | Футпринт           | Описание                                                                                                          |
-|:-----------:|------------------|------------------|-------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------|
-|      1      | 1N4148WS         | 1N4148WS         | ON Semiconductor / Fairchild  | SOD323             | DIODE GEN PURP 75V 150MA SOD323F                                                                                  |
-|      2      | B340-13-F        | B340-13-F        | Diodes                        | DIOM6959X25N_SMC   | Diode Schottky 40V 3A 2-Pin SMC T/R                                                                               |
-|      3      | BAS85,115        | BAS85,115        | Nexperia                      | DIOMELF3515N-SOD80 | BAS85 Series 30 V 5 A Surface Mount Schottky Barrier Diode - SOD-80C                                              |
-|      4      | DZ2W06200L       | DZ2W06200L       | Panasonic                     | SODFL350X110-2N    | PANASONIC DZ2W06200L Zener Single Diode, 6.2 V, 1 W, SOD-123F, 5 %, 2 Pins, 85 C                                  |
-|      5      | LL4148-GS08      | LL4148-GS08      | Vishay                        | DIOMELF3515N-SOD80 | Diode Small Signal Switching 100V 0.3A 2-Pin Mini-MELF SOD-80 T/R                                                 |
-|      6      | MBR0540T1G       | MBR0540T1G       | ON Semiconductor              | SOD123             | DIODE SCHOTTKY 40V 500MA SOD123                                                                                   |
-|      7      | MBRA210LT3G      | MBRA210LT3G      | ON Semiconductor              |                    | Diode Schottky 10V 2A 2-Pin SMA T/R                                                                               |
-|      8      | MBRA340T3G       | MBRA340T3G       | ON Semiconductor              | DIOM4326X24N - SMA | ON SEMICONDUCTOR - MBRA340T3G - Schottky-Gleichrichterdiode, 40 V, 3 A, Einfach, DO-214AC (SMA), 2 Pin(s), 450 mV |
-|      9      | NZH15B           | NZH15B,115       | Nexperia                      | SODFL350X110-2N    | DIODE ZENER 15V 500MW SOD123F                                                                                     |
-|     10      | NZH9V1B,115      | NZH9V1B,115      | NXP Semiconductors            | SODFL350X110-2N    | Diode Zener Single 9.04V 2% 1W Automotive 2-Pin Sod-123F T/R                                                      |
-|     11      | SMAJ18A          | SMAJ18A-13-F     | Diodes                        | DIOM4326X24N - SMA | Diode TVS Single Uni-Dir 18V 400W 2-Pin SMA T/R Description Diode TVS Single Uni-Dir 18V 400W 2-Pin SMA T/R       |
-|     12      | STPS1L60ZFY      | STPS1L60ZFY      | STMicroelectronics            | SODFL350X110-2N    | DIODE SCHOTTKY 60V 1A SOD123F                                                                                     |
-|     13      | STPS30H100DJF-TR | STPS30H100DJF-TR | STMicroelectronics            | PowerFlat6x6_diode | Diode Schottky 100V 30A 8-Pin Power Flat T/R                                                                      |
-|     15      | MMSZ4685         | MMSZ4685         | Changjiang Electronics Tech   | SOD123             | Zener Diode 3.6V 350mW ±5% Surface Mount SOD-123                                                                  |
+| Позиционное | LibRef           | Наименование     | Производитель                | Футпринт           | Описание                                                                                                          |
+|:-----------:|------------------|------------------|------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------|
+|      1      | 1N4148WS         | 1N4148WS         | ON Semiconductor / Fairchild | SOD323             | DIODE GEN PURP 75V 150MA SOD323F                                                                                  |
+|      2      | B340-13-F        | B340-13-F        | Diodes                       | DIOM6959X25N_SMC   | Diode Schottky 40V 3A 2-Pin SMC T/R                                                                               |
+|      3      | BAS85,115        | BAS85,115        | Nexperia                     | DIOMELF3515N-SOD80 | BAS85 Series 30 V 5 A Surface Mount Schottky Barrier Diode - SOD-80C                                              |
+|      4      | DZ2W06200L       | DZ2W06200L       | Panasonic                    | SODFL350X110-2N    | PANASONIC DZ2W06200L Zener Single Diode, 6.2 V, 1 W, SOD-123F, 5 %, 2 Pins, 85 C                                  |
+|      5      | LL4148-GS08      | LL4148-GS08      | Vishay                       | DIOMELF3515N-SOD80 | Diode Small Signal Switching 100V 0.3A 2-Pin Mini-MELF SOD-80 T/R                                                 |
+|      6      | MBR0540T1G       | MBR0540T1G       | ON Semiconductor             | SOD123             | DIODE SCHOTTKY 40V 500MA SOD123                                                                                   |
+|      7      | MBRA210LT3G      | MBRA210LT3G      | ON Semiconductor             |                    | Diode Schottky 10V 2A 2-Pin SMA T/R                                                                               |
+|      8      | MBRA340T3G       | MBRA340T3G       | ON Semiconductor             | DIOM4326X24N - SMA | ON SEMICONDUCTOR - MBRA340T3G - Schottky-Gleichrichterdiode, 40 V, 3 A, Einfach, DO-214AC (SMA), 2 Pin(s), 450 mV |
+|      9      | NZH15B           | NZH15B,115       | Nexperia                     | SODFL350X110-2N    | DIODE ZENER 15V 500MW SOD123F                                                                                     |
+|     10      | NZH9V1B,115      | NZH9V1B,115      | NXP Semiconductors           | SODFL350X110-2N    | Diode Zener Single 9.04V 2% 1W Automotive 2-Pin Sod-123F T/R                                                      |
+|     11      | SMAJ18A          | SMAJ18A-13-F     | Diodes                       | DIOM4326X24N - SMA | Diode TVS Single Uni-Dir 18V 400W 2-Pin SMA T/R Description Diode TVS Single Uni-Dir 18V 400W 2-Pin SMA T/R       |
+|     12      | STPS1L60ZFY      | STPS1L60ZFY      | STMicroelectronics           | SODFL350X110-2N    | DIODE SCHOTTKY 60V 1A SOD123F                                                                                     |
+|     13      | STPS30H100DJF-TR | STPS30H100DJF-TR | STMicroelectronics           | PowerFlat6x6_diode | Diode Schottky 100V 30A 8-Pin Power Flat T/R                                                                      |
+|     15      | MMSZ4685         | MMSZ4685         | Changjiang Electronics Tech  | SOD123             | Zener Diode 3.6V 350mW ±5% Surface Mount SOD-123                                                                  |
+|     16      | BZT52C16         | BZT52C16         | Changjiang Electronics Tech  | SOD123             | Zener Diode 16V 350mW Surface Mount SOD-123                                                                       |
+|     17      | SMAJ26A-13-F     | SMAJ26A-13-F     | Diodes                       | DIOM4326X24N - SMA | TVS DIODE 26VWM 42.1VC SMA                                                                                        |
 
 
 ## 6. RPSLib_ElectroMechanical
@@ -489,3 +491,4 @@
 |     13      | TLP241A(TP1,F | TLP241A(TP1,F | Toshiba            | TLP241A(LF1)              | Relay SSR 25MA 1.4V Dc-in 2A 40V Dc-out 4-PIN DIP T/r                                                            |
 |     14      | BC846BDW1T1G  | BC846BDW1T1G  | ON Semiconductor   | SOT65P210X110-6N          | ON Semi BC846BDW1T1G Dual NPN Bipolar Transistor; 0.1 A; 65 V; 6-Pin SC-88                                       |
 |     15      | AO3400A       | AO3400A       | Alpha & Omega      | SOT95P232X100-3N          | MOSFET N-CH 30V 5.7A SOT23-3L                                                                                    |
+|     16      | AO4485        | AO4485        | Alpha & Omega      | SOIC127P600X175           | MOSFET P-CH 40V 10A 8SOIC                                                                                        |
