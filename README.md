@@ -159,6 +159,7 @@
 |     15      | MMSZ4685         | MMSZ4685         | Changjiang Electronics Tech  | SOD123             | Zener Diode 3.6V 350mW ±5% Surface Mount SOD-123                                                                  |
 |     16      | BZT52C16         | BZT52C16         | Changjiang Electronics Tech  | SOD123             | Zener Diode 16V 350mW Surface Mount SOD-123                                                                       |
 |     17      | SMAJ26A-13-F     | SMAJ26A-13-F     | Diodes                       | DIOM4326X24N - SMA | TVS DIODE 26VWM 42.1VC SMA                                                                                        |
+|     18      | SMF26CA          | SMF26CA          | MDD                          | SOD123FL           | ESD Suppressor TVS 16KV 2-Pin SOD-123FL T/R                                                                       |
 
 
 ## 6. RPSLib_ElectroMechanical
