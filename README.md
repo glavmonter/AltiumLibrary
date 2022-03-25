@@ -369,12 +369,14 @@
 
 ## 19. RPSLib_Opto
 
-| Позиционное | LibRef      | Наименование | Производитель                | Футпринт           | Описание                                                                                  |
-|:-----------:|-------------|--------------|------------------------------|--------------------|-------------------------------------------------------------------------------------------|
-|      1      | EE-SX1330   | EE-SX1330    | Omron                        | E_SX1330           | Photointerrupter Transmissive Phototransistor 4-Pin SMD T/R                               |
-|      2      | MOCD213M    | MOCD213M     | ON Semiconductor / Fairchild | SOIC127P590X350-8N | OPTOISO 2.5KV 2CH TRANS 8SOIC                                                             |
-|      3      | VEMT2020X01 | VEMT2020X01  | Vishay                       | VEMT2020X01        | VISHAY SEMICONDUCTOR VEMT2020X01 TRANSISTOR, PHOTO, NPN, 860NM, SMD                       |
-|      4      | VSMB2020X01 | VSMB2020X01  | Vishay                       | VSMB2020X01        | VISHAY VSMB2020X01 Infrared Emitter, High Speed, 100 mA, 15 ns, 15 ns, 12 , 1.35 V, -40 C |
+| Позиционное | LibRef       | Наименование | Производитель                | Футпринт           | Описание                                                                                  |
+|:-----------:|--------------|--------------|------------------------------|--------------------|-------------------------------------------------------------------------------------------|
+|      1      | EE-SX1330    | EE-SX1330    | Omron                        | E_SX1330           | Photointerrupter Transmissive Phototransistor 4-Pin SMD T/R                               |
+|      2      | MOCD213M     | MOCD213M     | ON Semiconductor / Fairchild | SOIC127P590X350-8N | OPTOISO 2.5KV 2CH TRANS 8SOIC                                                             |
+|      3      | VEMT2020X01  | VEMT2020X01  | Vishay                       | VEMT2020X01        | VISHAY SEMICONDUCTOR VEMT2020X01 TRANSISTOR, PHOTO, NPN, 860NM, SMD                       |
+|      4      | VSMB2020X01  | VSMB2020X01  | Vishay                       | VSMB2020X01        | VISHAY VSMB2020X01 Infrared Emitter, High Speed, 100 mA, 15 ns, 15 ns, 12 , 1.35 V, -40 C |
+|      5      | LTV-357T     | LTV-357T     | Vishay Lite-On               | SOP254P680X220-4N  | OPTOISOLATOR 3.75KV TRANS 4-SOP                                                           |
+|      6      | PC817X2CSP9F | PC817X2CSP9F | Sharp                        | SOP254P1020X400-4N | SOP-4 Viso=5000Vrms VF(typ)=1.2V IF=50mA Vo=80V                                           |
 
 
 ## 20. RPSLib_Oscillators
