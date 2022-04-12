@@ -160,6 +160,7 @@
 |     16      | BZT52C16         | BZT52C16         | Changjiang Electronics Tech  | SOD123             | Zener Diode 16V 350mW Surface Mount SOD-123                                                                       |
 |     17      | SMAJ26A-13-F     | SMAJ26A-13-F     | Diodes                       | DIOM4326X24N - SMA | TVS DIODE 26VWM 42.1VC SMA                                                                                        |
 |     18      | SMF26CA          | SMF26CA          | MDD                          | SOD123FL           | ESD Suppressor TVS 16KV 2-Pin SOD-123FL T/R                                                                       |
+|     19      | B5819W           | B5819W           | MDD                          | SOD123             | 40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes                                                                   |
 
 
 ## 6. RPSLib_ElectroMechanical
@@ -429,6 +430,7 @@
 |     23      | TPS71812-33DRVR    | TPS71812-33DRVR    | Texas Instruments                  | PSON65P200X80_HS-7N   | IC REG LIN 1.2V/3.3V 200MA 6SON                                                                                                                                      |
 |     24      | NSI45020T1G        | NSI45020T1G        | ON Semiconductor                   | NSI45020 SOD-123      | Current Regulator Regulator High/Low-Side 20mA SOD-123                                                                                                               |
 |     25      | LMR64010XMF        | LMR64010XMF        | Texas Instruments                  | SOT95P280X145-5N      | SIMPLE SWITCHER® 2.7V to 14V, 1A Step-Up Regulator in SOT-23 Package 5-SOT-23 -40 to 125                                                                             |
+|     26      | SE8533K2-HF        | SE8533K2-HF        | Seaward                            | SOT89-150P354X160-3N  | 85dB 2μA Fixed 3.3V~3.3V Positive 1 40V SOT-89 Linear Voltage Regulators (LDO) ROHS                                                                                  |
 
 
 ## 22. RPSLib_Protection
