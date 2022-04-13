@@ -118,13 +118,15 @@ t = [
     "AudioSpeakers",
     "SensorsOpticalPhotoresistors",
     "ResistorsSlidePotentiometers",
-    "ResistorsRotaryPotentiometers"]
+    "ResistorsRotaryPotentiometers",
+    "Test"
+]
 
 try:
     conn = mariadb.connect(
          user='altium',
-         password='',
-         host='',
+         password='d2b841e971488',
+         host='wintercactus.online',
          port=3306,
          database='altium_library')
 except mariadb.Error as e:
@@ -132,18 +134,24 @@ except mariadb.Error as e:
     sys.exit(1)
 
 cur = conn.cursor()
+for table in ['']:
+    drop_query = """
+    drop table if exists t{tname:}
+    """
+    drop_query = drop_query.format(tname=table)
+    cur.execute(drop_query)
 
-sql_query = """
-create table if not exists tResistorsTrimmerPotentiometers
-(
-    `Part Name`    VARCHAR(511)  null,
-    `Library Path` VARCHAR(1023) null,
-    `Library Ref`  VARCHAR(1023) null,
-    `Footprint Ref` VARCHAR(1023) null,
-    `Footprint Path` VARCHAR(1023) null,
-    constraint tResistorsTrimmerPotentiometers_pk
-        primary key (`Part Name`)
-)
-"""
-cur.execute(sql_query)
+    sql_query = """
+    create table if not exists t{tname:}
+    (
+        `partid` INTEGER 
+        `Part Name`    VARCHAR(511) null,
+        `Library Path` VARCHAR(1023) null,
+        `Library Ref`  VARCHAR(1023) null,
+        constraint t{tname:}_pk
+            primary key (`Part Name`)
+    )"""
+    sql_query = sql_query.format(tname=table)
+    cur.execute(sql_query)
+
 conn.close()
