@@ -1,0 +1,88 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MSDASQL.1;Persist Security Info=False;Data Source=altium_library
+AddMode=3
+RemoveMode=1
+UpdateMode=1
+ViewMode=0
+LeftQuote=`
+RightQuote=`
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=MEDIUMTEXT
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=ALTIUM
+LastFocusedTable=Transistors - BJT - Single
+[Table1]
+SchemaName=
+TableName=Transistors - BJT - Array
+Enabled=True
+UserWhere=1
+UserWhereText=`Part Number` = '{Part Number}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Comment0=100|Description0=100|Device Package0=100|Footprint Path 10=100|Footprint Ref 10=100|Footprint Path 20=100|Footprint Ref 20=100|Footprint Path 30=100|Footprint Ref 30=100|Library Path0=100|Library Ref0=100|Last Updated0=100|Manufacturer0=100|Part Number0=100|Mounting Type0=100|Package/Case0=100|Part Status0=100|Packagin0=100|Transistor Type0=100|Transistors Count0=100|Current - Collector (Ic) (Max)0=100|Voltage - Collector Emitter Breakdown (Max)0=100|Vce Saturation (Max) @ Ib, Ic0=100|Current - Collector Cutoff (Max)0=100|DC Current Gain (hFE) (Min) @ Ic, Vce0=100|Power - Max0=100|Frequency - Transition0=100|Operating Temperature0=100|ComponentLink1Description0=100|ComponentLink1URL0=100|ComponentLink2Description0=100|ComponentLink2URL0=100|ComponentLink3Description0=100|ComponentLink3URL0=100|Supplier 10=100|Supplier Part Number 10=100|Supplier 20=100|Supplier Part Number 20=100|Supplier 30=100|Supplier Part Number 30=100|Supplier 40=100|Supplier Part Number 40=100
+[Table2]
+SchemaName=
+TableName=Transistors - BJT - Single
+Enabled=True
+UserWhere=1
+UserWhereText=`Part Number` = '{Part Number}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=100|Footprint Path 10=100|Footprint Ref 10=100|Footprint Path 20=100|Footprint Ref 20=100|Footprint Path 30=100|Footprint Ref 30=100|Library Path0=100|Library Ref0=100|Comment0=100|Device Package0=100|Lastupdated0=100|Manufacturer0=100|Part Number0=100|Mounting Type0=100|Package/Case0=100|Part Status0=100|Packagin0=100|Transistor Type0=100|Transistors Count0=100|Current - Collector (Ic) (Max)0=100|Voltage - Collector Emitter Breakdown (Max)0=100|Vce Saturation (Max) @ Ib, Ic0=100|Current - Collector Cutoff (Max)0=100|DC Current Gain (hFE) (Min) @ Ic, Vce0=100|Power - Max0=100|Frequency - Transition0=100|Operating Temperature0=100|ComponentLink1Description0=100|ComponentLink1URL0=100|ComponentLink2Description0=100|ComponentLink2URL0=100|ComponentLink3Description0=100|ComponentLink3URL0=100|Supplier 10=100|Supplier Part Number 10=100|Supplier 20=100|Supplier Part Number 20=100|Supplier 30=100|Supplier Part Number 30=100|Supplier 40=100|Supplier Part Number 40=100|Last Updated0=100
+[Table3]
+SchemaName=
+TableName=t_TransistorsBipolarBJT
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table4]
+SchemaName=
+TableName=table_name
+Enabled=False
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=Transistors - BJT - Array.Description|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Transistors - BJT - Array.Footprint Path 1|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Footprint Path 1|FieldType=1|ParameterName=[Footprint Path 1]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Transistors - BJT - Array.Footprint Ref 1|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Footprint Ref 1|FieldType=1|ParameterName=[Footprint Ref 1]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Transistors - BJT - Array.Footprint Path 2|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Transistors - BJT - Array.Footprint Ref 2|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Transistors - BJT - Array.Footprint Path 3|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Transistors - BJT - Array.Footprint Ref 3|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Transistors - BJT - Array.Library Path|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Transistors - BJT - Array.Library Ref|TableNameOnly=Transistors - BJT - Array|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Transistors - BJT - Single.Description|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Transistors - BJT - Single.Footprint Path 1|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Footprint Path 1|FieldType=1|ParameterName=[Footprint Path 1]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Transistors - BJT - Single.Footprint Ref 1|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Footprint Ref 1|FieldType=1|ParameterName=[Footprint Ref 1]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Transistors - BJT - Single.Footprint Path 2|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Transistors - BJT - Single.Footprint Ref 2|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Transistors - BJT - Single.Footprint Path 3|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=Transistors - BJT - Single.Footprint Ref 3|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=Transistors - BJT - Single.Library Path|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=Transistors - BJT - Single.Library Ref|TableNameOnly=Transistors - BJT - Single|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

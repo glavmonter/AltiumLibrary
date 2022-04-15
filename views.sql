@@ -107,3 +107,10 @@ CREATE VIEW IF NOT EXISTS `Transistors - BJT - Array` AS
            `supplier4partno` as `Supplier Part Number 4`
 
     FROM t_TransistorsBipolarBJT WHERE TransistorCount > 1;
+
+
+DROP VIEW IF EXISTS `Transistors - MOSFET - Single`;
+CREATE VIEW `Transistors - MOSFET - Single` AS
+    SELECT
+           *
+    FROM t_TransistorsMOSFET WHERE TransistorCount = 1;
