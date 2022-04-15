@@ -270,6 +270,7 @@
 |      8      | MFRC63003HNE        | MFRC63003HNE        | NXP Semiconductors | QFN50P500X500X100_HS-33N_MFRC | IC RFID TRANSP 13.56MHZ 32HVQFN                                                            |
 |      9      | SN65HVD82DR         | SN65HVD82DR         | Texas Instruments  | SOIC127P600X175-8N            | Texas Instruments SN65HVD82DR Linear IC                                                    |
 |     10      | PN5321A3HN/C106;55  | PN5321A3HN/C106;55  | NXP Semiconductors | QFN50P600X600X100_HS-41N      | PN532 Series 5.5 V 13.56 MHz Near Field Communication (NFC) Controller -HVQFN-40           |
+|     11      | PCA9535PW,118       | PCA9535PW,118       | NXP Semiconductors | TSOP65P640X110-24N            | PCA9535: 5.5V 160mA 400 kHz 16-bit I2C-bus and SMBus Low Power I/O Port-TSSOP-24           |
 
 
 ## 13. RPSLib_LEDs
