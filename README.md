@@ -136,7 +136,9 @@
 |     77      | 5EHDR-02P                              |                          |                     | 5EHDR-02P                                           | 5EHDR-02P                                                                                                                                   |
 |     78      | PLS-8                                  |                          |                     | PLD 8X1                                             | 8 прямых штырьков 2,54 мм                                                                                                                   |
 |     79      | PLS-4                                  |                          |                     | PLD 4X1                                             | 4 прямых штырька 2,54 мм                                                                                                                    |
-|     80      | USB-B12-BRW                            | USB-B12-BRW              | XUNPU               | USB-B12-BRW                                         | 1.5A USB 2.0 1 260℃ Straight 4 Female -20℃~+70℃ Type-B Plugin,19.25x12.04x11mm USB Connectors ROHS                                          |
+|     80      | USB-B12-BRW                            | USB-B12-BRW              | XUNPU               | USB-B12-BRW                                         | 1.5A USB 2.0 1 Straight 4 Female Type-B Plugin, 19.25x12.04x11mm USB Connectors ROHS                                                        |
+|     81      | KF2EDGR-5.0-2P                         | KF2EDGR-5.0-2P           | CiXi KaiFeng El     | 5EHDR-02P                                           | 300V 15A 2 Bend -40C~+105C 1 5mm Green Board Edge/Receptacle-Open P=5mm Pluggable System Terminal Block ROHS                                |
+|     82      | KF2EDGR-5.0-3P                         | KF2EDGR-5.0-3P           | CiXi KaiFeng El     | 5EHDR-03P                                           | 300V 15A 3 Bend -40C~+105C 1 5mm Green Board Edge/Receptacle-Open P=5mm Pluggable System Terminal Block ROHS                                |
 
 
 ## 5. RPSLib_Diodes
@@ -233,6 +235,7 @@
 |      4      | DS1340Z-33+       | DS1340Z-33+       | Maxim              | SOIC127P600X175-8N | IC RTC CLK/CALENDAR I2C 8-SOIC                                                                                  |
 |      5      | NCP803SN308T1G    | NCP803SN308T1G    | ON Semiconductor   | SOT95P232X100-3N   | IC MPU RESET MONITOR 3.08V SOT23                                                                                |
 |      6      | USBLC6-2SC6       | USBLC6-2SC6       | STMicroelectronics | SOT95P280X145-6N   | USB protection IC                                                                                               |
+|      7      | USBLC6-4SC6       | USBLC6-4SC6       | STMicroelectronics | SOT95P280X145-6N   | TVS DIODE 5.25VWM 17VC SOT23-6                                                                                  |
 
 
 ## 11. RPSLib_Inductors
@@ -291,6 +294,7 @@
 |     12      | LTST-S270KRKT    | LTST-S270KRKT    | Vishay Lite-On | LTST-S270KRKT                 | LED Uni-Color Red 639nm 2-Pin Chip LED T/R                                           |
 |     13      | SMLVN6RGB1W1     | SMLVN6RGB1W1     | Rohm           | LED3528M                      | LED Tri-Color Blue/Green/Red Chip LED 6-Pin 1411 T/R                                 |
 |     14      | IN-S85ATG        | IN-S85ATG        | Inolux         | DIOC2012X11N-                 | Led Green Clear 0805 SMD Super bright                                                |
+|     15      | ORH-YG36A        | ORH-YG36A        | Orient         | DIOC1608X04N_LED              | Green/Yellow-Green 0603 Light Emitting Diodes (LED) ROHS                             |
 
 
 ## 14. RPSLib_Logic
@@ -314,6 +318,9 @@
 |     15      | SN74AHC1G32DBVR | SN74AHC1G32DBVR  | Texas Instruments  | SOT95P280X110-5N    | TEXAS INSTRUMENTS - SN74AHC1G32DBVR - 74AHC SINGLE GATE, SMD, 74AHC1G32          |
 |     16      | SN74LVC1G18DBVR | SN74LVC1G18DBVR  | Texas Instruments  | SOT95P280X110-6N    | IC 1OF2 NON-INV DEMUX SOT23-6                                                    |
 |     17      | NPIC6C596APWJ   | NPIC6C596APWJ    | Nexperia           | TSOP65P640X110-16N  | NPIC6C596A Series 5.5 V Open-Drain Power Logic 8-Bit Shift Register - TSSOP-16   |
+|     18      | SN74LVC2G14DCKR | SN74LVC2G14DCKR  | Texas Instruments  | SOT65P210X100-6N    | IC INVERTER DUAL SHMT-T SC-70-6                                                  |
+|     19      | SN74LVC2G14DBV  | SN74LVC2G14DBV   | Texas Instruments  | SOT95P280X110-6N    | Inverter IC 2 Channel Schmitt Trigger SOT-23-6                                   |
+|     20      | SN74LVC2G86DCUR | SN74LVC2G86DCUR  | Texas Instruments  | TSSOP50P310X90-8N   | 2-ch, 2-input, 1.65-V to 5.5-V XOR (exclusive OR) gates 8-VSSOP -40 to 125       |
 
 
 ## 15. RPSLib_Memory
@@ -442,6 +449,7 @@
 |      2      | SG75             | SG75             | Littelfuse    | GDT SG Littlefuse | GAS DISCHARGE TUBE, 75V, SMD                                                                                        |
 |      3      | TBU-CA065-200-WH | TBU-CA065-200-WH | Bourns        | TBU-CA            | BOURNS - TBU-CA065-200-WH - Surge Protector, TBU-CA Series, High Speed Surge Protector IC, 650 V                    |
 |      4      | SMF26CA          | SMF26CA          | Littelfuse    | SODFL365X110-2N   | TVS DIODE 26VWM 42.1VC SOD123F                                                                                      |
+|      5      | SMD75XM          | SMD75XM          | SURGING       | GDT SMD75         | 2kA 0.5pF 75V 2 1812 Gas Discharge Tube (GDT) ROHS                                                                  |
 
 
 ## 23. RPSLib_Resistors
@@ -498,3 +506,4 @@
 |     14      | BC846BDW1T1G  | BC846BDW1T1G  | ON Semiconductor   | SOT65P210X110-6N          | ON Semi BC846BDW1T1G Dual NPN Bipolar Transistor; 0.1 A; 65 V; 6-Pin SC-88                                       |
 |     15      | AO3400A       | AO3400A       | Alpha & Omega      | SOT95P232X100-3N          | MOSFET N-CH 30V 5.7A SOT23-3L                                                                                    |
 |     16      | AO4485        | AO4485        | Alpha & Omega      | SOIC127P600X175           | MOSFET P-CH 40V 10A 8SOIC                                                                                        |
+|     17      | G3VM-61D1(TR) | G3VM-61D1(TR) | Omron              | DIP-4 SSR                 | RELAY SSR SPST 60V 500MA 4SMD                                                                                    |
