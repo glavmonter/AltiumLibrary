@@ -258,6 +258,7 @@
 |     14      | SRN8040-2R2Y       | SRN8040-2R2Y       | Bourns        | SRN8040-4.0          | BOURNS - SRN8040-2R2Y - INDUCTOR, 2.2UH, 6.3A, 30%, SEMISHIELDED                                  |
 |     15      | SRN8040-3R3Y       | SRN8040-3R3Y       | Bourns        | SRN8040-4.0          | FIXED IND 3.3UH 5.6A 21 MOHM SMD                                                                  |
 |     16      | LQW2UASR56J00L     | LQW2UASR56J00L     | Murata        | INDC2624X20N-LQW2    | Ind RF Chip Wirewound 560nH 5% 25MHz 45Q-Factor 400mA 1008 Embossed T/R                           |
+|     17      | YSPI0530-100M      | YSPI0530-100M      | YJYCOIN       | YSPI0530             | 2.5A 10uH ±20% 115mΩ SMD,5.4x5.2x3mm Power Inductors ROHS                                         |
 
 ## 12. RPSLib_Interface
 
@@ -439,6 +440,7 @@
 |     24      | NSI45020T1G        | NSI45020T1G        | ON Semiconductor                   | NSI45020 SOD-123      | Current Regulator Regulator High/Low-Side 20mA SOD-123                                                                                                               |
 |     25      | LMR64010XMF        | LMR64010XMF        | Texas Instruments                  | SOT95P280X145-5N      | SIMPLE SWITCHER® 2.7V to 14V, 1A Step-Up Regulator in SOT-23 Package 5-SOT-23 -40 to 125                                                                             |
 |     26      | SE8533K2-HF        | SE8533K2-HF        | Seaward                            | SOT89-150P354X160-3N  | 85dB 2μA Fixed 3.3V~3.3V Positive 1 40V SOT-89 Linear Voltage Regulators (LDO) ROHS                                                                                  |
+|     27      | TP6841S6-A         | TP6841S6-A         | Tech Public                        | SOT95P280X110-6N      | 40V 0.8A 800kHz Synchronous Step-Down Converter SOT23-6L                                                                                                             |
 
 
 ## 22. RPSLib_Protection
