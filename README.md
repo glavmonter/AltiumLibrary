@@ -259,6 +259,10 @@
 |     15      | SRN8040-3R3Y       | SRN8040-3R3Y       | Bourns        | SRN8040-4.0          | FIXED IND 3.3UH 5.6A 21 MOHM SMD                                                                  |
 |     16      | LQW2UASR56J00L     | LQW2UASR56J00L     | Murata        | INDC2624X20N-LQW2    | Ind RF Chip Wirewound 560nH 5% 25MHz 45Q-Factor 400mA 1008 Embossed T/R                           |
 |     17      | YSPI0530-100M      | YSPI0530-100M      | YJYCOIN       | YSPI0530             | 2.5A 10uH ±20% 115mΩ SMD,5.4x5.2x3mm Power Inductors ROHS                                         |
+|     18      | YSPI0730-1R5M      | YSPI0730-1R5M      | YJYCOIN       | YSPI0730             | 9.5A 1.5uH ±20% 10.5mΩ SMD,7.3x6.6x3mm Power Inductors ROHS                                       |
+|     19      | YLM2012-900T       | YLM2012-900T       | YJYCOIN       | YLM2021              | SMD,2x1.2x1.2mm Common Mode Filters ROHS 90 Ohm                                                   |
+
+
 
 ## 12. RPSLib_Interface
 
@@ -326,20 +330,21 @@
 
 ## 15. RPSLib_Memory
 
-| Позиционное | LibRef                | Наименование          | Производитель     | Футпринт                      | Описание                                                                                                          |
-|:-----------:|-----------------------|-----------------------|-------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------|
-|      1      | 24AA02E48T-I/OT       | 24AA02E48T-I/OT       | Microchip         | SOT95P280X145-5N              | MICROCHIP 24AA02E48T-I/OT EEPROM, EUI-48 Node Identity, 2 Kbit, 2 BLK (128K x 8bit), 400 kHz, I2C, SOT-23, 5 Pins |
-|      2      | 93LC56BT-I/OT         | 93LC56BT-I/OT         | Microchip         | SOT95P280X145-6N              | IC EEPROM 2K SPI 2MHZ SOT23-6                                                                                     |
-|      3      | FM24CL16B-GTR         | FM24CL16B-GTR         | Cypress           | SOIC127P600X175-8N            | IC FRAM 16K I2C 1MHZ 8SOIC                                                                                        |
-|      4      | IS21ES04G-JCLI        | IS21ES04G-JCLI        | ISSI              | BGA153C50P14X14_1150X1300X100 | IC FLASH 32G EMMC 153VFBGA                                                                                        |
-|      5      | IS21ES08G-JCLI        | IS21ES08G-JCLI        | ISSI              | BGA153C50P14X14_1150X1300X100 | IC FLASH 64G EMMC 153VFBGA                                                                                        |
-|      6      | IS43TR16256AL-125KBL  | IS43TR16256AL-125KBL  | ISSI              | BGA96C80P9X16_900X1300X120    | IC DRAM 4G PARALLEL 96TWBGA                                                                                       |
-|      7      | IS43TR16256BL-125KBL  | IS43TR16256BL-125KBL  | ISSI              | BGA96C80P9X16_900X1300X120    | IC DRAM 4G PARALLEL 96TWBGA                                                                                       |
-|      8      | MT41J128M16JT-125:KTR | MT41J128M16JT-125:KTR | Micron Technology | BGA96C80P9X16_800X1400X110    | IC DRAM 2G PARALLEL 96FBGA                                                                                        |
-|      9      | MT41J256M8DA-125:K    | MT41J256M8DA-125:K    | Micron Technology | BGA81C80P9X13_800X1050X120    | DRAM Chip DDR3 SDRAM 2G-Bit 256Mx8 1.5V 78-Pin FBGA                                                               |
-|     10      | S25FL128SAGNFI003     | S25FL128SAGNFI003     | Spansion          | SON127P800X80_HS-9N           | 128-MBIT CMOS 3.0 VOLT 65NM FLASH MEMORY WITH 13                                                                  |
-|     11      | S25FL256SAGNFI001     | S25FL256SAGNFI001     | Cypress           | SON127P800X80_HS-9N           | CYPRESS SEMICONDUCTOR - S25FL256SAGNFI001 - Flash Memory, Serial NOR, 256 Mbit, 32M x 8bit, SPI, WSON, 8 Pins     |
-|     12      | BL24C02F-RRRC         | BL24C02F-RRRC         | Shanghai Belling  | SOT95P280X145-5N              | TSOT23-5L EEPROM 2Kb（256x8） I²C                                                                                   |
+| Позиционное | LibRef                | Наименование          | Производитель      | Футпринт                      | Описание                                                                                                          |
+|:-----------:|-----------------------|-----------------------|--------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------------|
+|      1      | 24AA02E48T-I/OT       | 24AA02E48T-I/OT       | Microchip          | SOT95P280X145-5N              | MICROCHIP 24AA02E48T-I/OT EEPROM, EUI-48 Node Identity, 2 Kbit, 2 BLK (128K x 8bit), 400 kHz, I2C, SOT-23, 5 Pins |
+|      2      | 93LC56BT-I/OT         | 93LC56BT-I/OT         | Microchip          | SOT95P280X145-6N              | IC EEPROM 2K SPI 2MHZ SOT23-6                                                                                     |
+|      3      | FM24CL16B-GTR         | FM24CL16B-GTR         | Cypress            | SOIC127P600X175-8N            | IC FRAM 16K I2C 1MHZ 8SOIC                                                                                        |
+|      4      | IS21ES04G-JCLI        | IS21ES04G-JCLI        | ISSI               | BGA153C50P14X14_1150X1300X100 | IC FLASH 32G EMMC 153VFBGA                                                                                        |
+|      5      | IS21ES08G-JCLI        | IS21ES08G-JCLI        | ISSI               | BGA153C50P14X14_1150X1300X100 | IC FLASH 64G EMMC 153VFBGA                                                                                        |
+|      6      | IS43TR16256AL-125KBL  | IS43TR16256AL-125KBL  | ISSI               | BGA96C80P9X16_900X1300X120    | IC DRAM 4G PARALLEL 96TWBGA                                                                                       |
+|      7      | IS43TR16256BL-125KBL  | IS43TR16256BL-125KBL  | ISSI               | BGA96C80P9X16_900X1300X120    | IC DRAM 4G PARALLEL 96TWBGA                                                                                       |
+|      8      | MT41J128M16JT-125:KTR | MT41J128M16JT-125:KTR | Micron Technology  | BGA96C80P9X16_800X1400X110    | IC DRAM 2G PARALLEL 96FBGA                                                                                        |
+|      9      | MT41J256M8DA-125:K    | MT41J256M8DA-125:K    | Micron Technology  | BGA81C80P9X13_800X1050X120    | DRAM Chip DDR3 SDRAM 2G-Bit 256Mx8 1.5V 78-Pin FBGA                                                               |
+|     10      | S25FL128SAGNFI003     | S25FL128SAGNFI003     | Spansion           | SON127P800X80_HS-9N           | 128-MBIT CMOS 3.0 VOLT 65NM FLASH MEMORY WITH 13                                                                  |
+|     11      | S25FL256SAGNFI001     | S25FL256SAGNFI001     | Cypress            | SON127P800X80_HS-9N           | CYPRESS SEMICONDUCTOR - S25FL256SAGNFI001 - Flash Memory, Serial NOR, 256 Mbit, 32M x 8bit, SPI, WSON, 8 Pins     |
+|     12      | BL24C02F-RRRC         | BL24C02F-RRRC         | Shanghai Belling   | SOT95P280X145-5N              | TSOT23-5L EEPROM 2Kb（256x8) I2C                                                                                  |
+|     13      | M24C08-RMN6TP         | M24C08-RMN6TP         | STMicroelectronics | SOIC127P600X175-8N            | IC EEPROM 8KBIT 400KHZ 8SO                                                                                        |
 
 
 ## 16. RPSLib_Microcontrollers
@@ -441,6 +446,8 @@
 |     25      | LMR64010XMF        | LMR64010XMF        | Texas Instruments                  | SOT95P280X145-5N      | SIMPLE SWITCHER® 2.7V to 14V, 1A Step-Up Regulator in SOT-23 Package 5-SOT-23 -40 to 125                                                                             |
 |     26      | SE8533K2-HF        | SE8533K2-HF        | Seaward                            | SOT89-150P354X160-3N  | 85dB 2μA Fixed 3.3V~3.3V Positive 1 40V SOT-89 Linear Voltage Regulators (LDO) ROHS                                                                                  |
 |     27      | TP6841S6-A         | TP6841S6-A         | Tech Public                        | SOT95P280X110-6N      | 40V 0.8A 800kHz Synchronous Step-Down Converter SOT23-6L                                                                                                             |
+|     28      | SCT2360FPBR        | SCT2360FPBR        | SCT                                | QFN50P300X300X80-12N  | 4V-28V Vin, 6A Synchronous Step-down DCDC Converter                                                                                                                  |
+
 
 
 ## 22. RPSLib_Protection
@@ -480,13 +487,15 @@
 
 ## 24. RPSLib_Sensor
 
-| Позиционное | LibRef     | Наименование     | Производитель               | Футпринт            | Описание                                                                            |
-|:-----------:|------------|------------------|-----------------------------|---------------------|-------------------------------------------------------------------------------------|
-|      1      | IQS127D    | IQS127D-00000TSR | Azoteq                      | SOT95P280X100-6N    | Capacitive Touch Sensors Default Config Prox & Touch                                |
-|      2      | SL353HT    | SL353HT          | Honeywell Sensing & Control | SOT95P232X100-3N    | HONEYWELL S&C SL353HT Hall Effect Sensor, Omnipolar, 330 A, SOT-23, 3, 2.2 V, 5.5 V |
-|      3      | TMP100NA   | TMP100NA/250     | Texas Instruments           | SOT95P280X145-6N    | TEXAS INSTRUMENTS - TMP100NA/250 - TEMPERATUR SENSOR                                |
-|      4      | TTP223-BA6 | TTP223-BA6       | TonTek                      | SOT95P280X145-6N    | Capacitive Touch Sensors                                                            |
-|      5      | AW9201QNR  | AW9201QNR        | Awinic                      | QFN40P160X160X80-8N | Capacitive Touch Sensors                                                            |
+| Позиционное | LibRef            | Наименование     | Производитель               | Футпринт            | Описание                                                                            |
+|:-----------:|-------------------|------------------|-----------------------------|---------------------|-------------------------------------------------------------------------------------|
+|      1      | IQS127D           | IQS127D-00000TSR | Azoteq                      | SOT95P280X100-6N    | Capacitive Touch Sensors Default Config Prox & Touch                                |
+|      2      | SL353HT           | SL353HT          | Honeywell Sensing & Control | SOT95P232X100-3N    | HONEYWELL S&C SL353HT Hall Effect Sensor, Omnipolar, 330 A, SOT-23, 3, 2.2 V, 5.5 V |
+|      3      | TMP100NA          | TMP100NA/250     | Texas Instruments           | SOT95P280X145-6N    | TEXAS INSTRUMENTS - TMP100NA/250 - TEMPERATUR SENSOR                                |
+|      4      | TTP223-BA6        | TTP223-BA6       | TonTek                      | SOT95P280X145-6N    | Capacitive Touch Sensors                                                            |
+|      5      | AW9201QNR         | AW9201QNR        | Awinic                      | QFN40P160X160X80-8N | Capacitive Touch Sensors                                                            |
+|      6      | SHT30-DIS-B2.5KS  | SHT30-DIS-B2.5KS | Sensirion                   | QFN40P160X160X80-8N | Capacitive Touch Sensors                                                            |
+
 
 ## 25. RPSLib_Transistors
 
