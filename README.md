@@ -139,6 +139,7 @@
 |     80      | USB-B12-BRW                            | USB-B12-BRW              | XUNPU               | USB-B12-BRW                                         | 1.5A USB 2.0 1 Straight 4 Female Type-B Plugin, 19.25x12.04x11mm USB Connectors ROHS                                                        |
 |     81      | KF2EDGR-5.0-2P                         | KF2EDGR-5.0-2P           | CiXi KaiFeng El     | 5EHDR-02P                                           | 300V 15A 2 Bend -40C~+105C 1 5mm Green Board Edge/Receptacle-Open P=5mm Pluggable System Terminal Block ROHS                                |
 |     82      | KF2EDGR-5.0-3P                         | KF2EDGR-5.0-3P           | CiXi KaiFeng El     | 5EHDR-03P                                           | 300V 15A 3 Bend -40C~+105C 1 5mm Green Board Edge/Receptacle-Open P=5mm Pluggable System Terminal Block ROHS                                |
+|     83      | USB-B-S-F-B-TH-R                       | USB-B-S-F-B-TH-R         | Samtec              | Samtech USB-B                                       | Conn USB F 4 POS 2.5mm Solder RA Thru-Hole 4 Terminal 1 Port Tray                                                                           |
 
 
 ## 5. RPSLib_Diodes
